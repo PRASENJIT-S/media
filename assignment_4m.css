@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+body{
+    height: 95vh;
+    background-color: #000000;
+}
+.dashboard{
+    height: 90vh;
+    margin-left: 80px;
+    border: 1px solid #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.name{
+    display: grid;
+    grid-template-rows: repeat(11 , 1fr);
+}
+.email{
+    display: grid;
+    grid-template-rows: repeat(11 , 1fr);
+}
+.phone{
+    display: grid;
+    grid-template-rows: repeat(11 , 1fr);
+}
+.name div{
+    border-bottom: 1px solid #ffffff;
+}
+.email div{
+    border-bottom: 1px solid #ffffff;
+}
+.phone div{
+    border-bottom: 1px solid #ffffff;
+}
+@media screen and (max-width: 860px) {
+    .dashboard{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .phone{
+        display: none;
+    }
+}

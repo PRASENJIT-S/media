@@ -1,0 +1,13 @@
+.main{
+    border: 1px solid #000000;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    height: 300px;
+    width: 465px;
+    margin: 0px 0px 20px 10px;
+    border-radius: 10px;
+}
